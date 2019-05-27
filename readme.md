@@ -1,5 +1,5 @@
 # Prerendering with node.js
-Same app in two editions - one rendered fully on the clients, second one utilising pupeteer to generate HTML server side.
+Same app in two editions - one rendered fully on the client, second one utilising pupeteer to generate HTML server side.
 
 ## Getting Started
 
