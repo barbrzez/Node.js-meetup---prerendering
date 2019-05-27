@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:#563d7c;   
+}
+
+.companyName{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+    vertical-align: middle;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.btn-info {
+    color: #ffe484;
+    border-color: #ffe484;    
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.btn-info:hover {
+    color: #2a2730;
+    background-color: #ffe484;
+    border-color: #ffe484;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.travelCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.travelDestination {
+    width: 480px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.destination {
+    font-weight: 600;
+    background-color: rgba(255,255,255,0.75);
+    margin-bottom: auto;
+    font-size: 16px;
+    padding: 5px;
+    
+}
+
+.description{
+    background-color: rgba(255,255,255,0.75);
+    padding: 5px;
+}
+
+.info {    
+    display: flex;
+    background-color: rgba(255,255,255,0.75);
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.currentTemperature {
+    padding-right: 10px;
+}
+
+.priceTicket {
+    flex-grow: 1;
+    text-align: right;
+}
+
